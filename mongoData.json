@@ -1,0 +1,709 @@
+[
+	{
+		"title": "Application-Based Benchmarking on Redis and MongoDB for Trip Planning using GTFS Data",
+		"authors": [
+			"Alzaidi, M.",
+			"Vagner, A."
+		],
+		"doi": "10.18421/TEM124-70",
+		"documentType": "article",
+		"keywords": [
+			"Benchmarking",
+			"GTFS",
+			"MongoDB",
+			"NoSQL",
+			"Redis",
+			"trip-planning"
+		],
+		"database": "Scopus",
+		"year": 2023,
+		"wordCount": 5230,
+		"isAccessible": true,
+		"accessedAt": "2024-02-25 17:23:24"
+	},
+	{
+		"title": "Performance Analysis of Not Only SQL Semi-Stream Join Using MongoDB for Real-Time Data Warehousing",
+		"authors": [
+			"Erum Mehmood",
+			"Tayyaba Anees"
+		],
+		"doi": "10.1109/ACCESS.2019.2941925",
+		"documentType": "article",
+		"keywords": [
+			"NoSQL",
+			"semi-stream join",
+			"real-time data warehousing",
+			"MongoDB"
+		],
+		"database": "IEEE Xplore Digital Library",
+		"year": 2019,
+		"wordCount": 5830,
+		"isAccessible": true,
+		"accessedAt": "2024-01-25 22:41:50"
+	},
+	{
+		"title": "Enabling schema-independent data retrieval queries in MongoDB",
+		"authors": [
+			"Cabral, João Vitor Lopes",
+			"Noguera, Viviana Elizabeth Romero",
+			"Ciferri, Ricardo Rodrigues",
+			"Lucrédio, Daniel"
+		],
+		"doi": "10.1016/j.is.2023.102165",
+		"documentType": "article",
+		"keywords": [
+			"NoSQL",
+			"databasesModel",
+			"managementCode",
+			"generationQuery",
+			"rewritingEntity-Relationship",
+			"algebra"
+		],
+		"database": "ScienceDirect",
+		"year": 2023,
+		"wordCount": 5100,
+		"isAccessible": true,
+		"accessedAt": "2024-01-20 11:05:54"
+	},
+	{
+		"title": "Supporting a .csv-based Workflow in MongoDB for Data Analysts",
+		"authors": [
+			"Fresta, Matteo",
+			"Capello, Alessio",
+			"Bellotti, Francesco",
+			"Lazzaroni, Luca",
+			"Cossu, Marianna",
+			"Berta, Riccardo"
+		],
+		"doi": " 10.1109/ISIE51358.2023.10228044",
+		"documentType": "conference",
+		"keywords": [
+			".csv format",
+			".csv files",
+			"MongoDB",
+			"mongoimport",
+			"Measurify",
+			"user workflow",
+			"datasets"
+		],
+		"database": "IEEE Xplore Digital Library",
+		"year": 2023,
+		"wordCount": 3527,
+		"isAccessible": true,
+		"accessedAt": "2024-02-06 04:04:23"
+	},
+	{
+		"title": "Static Analysis of Database Accesses in MongoDB Applications",
+		"authors": [
+			"Cherry, Boris",
+			"Benats, Pol",
+			"Gobert, Maxime",
+			"Meurice, Loup",
+			"Nagy, Csaba",
+			"Cleve, Anthony"
+		],
+		"doi": "10.1109/SANER53432.2022.00111",
+		"documentType": "conference",
+		"keywords": [
+			"Database Accesses",
+			"Static Analysis",
+			"NoSql",
+			"MongoDB",
+			"JavaScript",
+			"NodeJS"
+		],
+		"database": "IEEE Xplore Digital Library",
+		"year": 2022,
+		"wordCount": 4452,
+		"isAccessible": false,
+		"accessedAt": "2024-02-25 11:00:15"
+	},
+	{
+		"title": "Comparative Performance Analysis of NoSQL Cassandra and MongoDB Databases",
+		"authors": [
+			"Araujo, Jose Maria A.",
+			"de Moura, Alysson Cristiano E.",
+			"da Silva, Silvia Laryssa B.",
+			"Holanda, Maristela",
+			"Ribeiro, Edward de Oliveira",
+			"da Silva, Gladston Luiz"
+		],
+		"doi": "10.23919/CISTI52073.2021.9476319",
+		"documentType": "conference",
+		"keywords": [
+			"NoSQL",
+			"Performance",
+			"Cassandra",
+			"MongoDB",
+			"Benchmark",
+			"YCSB"
+		],
+		"database": "IEEE Xplore Digital Library",
+		"year": 2021,
+		"wordCount": 4124,
+		"isAccessible": false,
+		"accessedAt": "2024-02-05 22:06:13"
+	},
+	{
+		"title": "Security assessment of Nosql Mongodb, Redis and Cassandra database managers",
+		"authors": [
+			"Sanchez, Ricardo Andres Gonzalez",
+			"Bernal, Davor Julian Moreno",
+			"Parada, Hector Dario Jaimes"
+		],
+		"doi": "10.1109/CONIITI53815.2021.9619597",
+		"documentType": "conference",
+		"keywords": [
+			"Databases",
+			"data privacy",
+			"data security",
+			"information system"
+		],
+		"database": "IEEE Xplore Digital Library",
+		"year": 2021,
+		"wordCount": 4531,
+		"isAccessible": true,
+		"accessedAt": "2024-02-12 14:37:28"
+	},
+	{
+		"title": "Automated E-Commerce Price Comparison Website using PHP, XAMPP, MongoDB, Django, and Web Scrapping",
+		"authors": [
+			"Nagaraj, P",
+			"Muneeswaran, V",
+			"Pavan Naidu, A V S R",
+			"Shanmukh, N",
+			"Kumar, P Vinod",
+			"Satyanarayana, G Sri"
+		],
+		"doi": "10.1109/ICCCI56745.2023.10128573",
+		"documentType": "conference",
+		"keywords": [
+			"Price Comparison",
+			"Products",
+			"Amazon",
+			"Flipkart",
+			"Web Scraping",
+			"Data Extraction",
+			"XAMPP",
+			"PHP",
+			"MariaDB",
+			"MongoDB",
+			"Django Web Framework"
+		],
+		"database": "IEEE Xplore Digital Library",
+		"year": 2023,
+		"wordCount": 4193,
+		"isAccessible": true,
+		"accessedAt": "2024-01-09 11:17:38"
+	},
+	{
+		"title": "The metadata management based on MongoDB for EAST experiment",
+		"authors": [
+			"He, J.",
+			"Ren, H.",
+			"Wang, F."
+		],
+		"doi": "10.1016/j.fusengdes.2023.113955",
+		"documentType": "article",
+		"keywords": [
+			"EAST",
+			"Metadata",
+			"MongoDB",
+			"Spring Boot"
+		],
+		"database": "Scopus",
+		"year": 2023,
+		"wordCount": 2700,
+		"isAccessible": false,
+		"accessedAt": "2024-01-14 16:11:59"
+	},
+	{
+		"title": "Checking Causal Consistency of MongoDB",
+		"authors": [
+			"Ouyang, Hong-Rong",
+			"Wei, Heng-Feng",
+			"Li, Hai-Xiang",
+			"Pan, An-Qun",
+			"Huang, Yu"
+		],
+		"doi": "10.1007/s11390-021-1662-8",
+		"documentType": "article",
+		"keywords": [
+			"MongoDB",
+			"casual consistency",
+			"Jepsen",
+			"consistency checking",
+			"TLA+"
+		],
+		"database": "Springer Nature Journals",
+		"year": 2022,
+		"wordCount": 3564,
+		"isAccessible": true,
+		"accessedAt": "2024-02-16 00:10:28"
+	},
+	{
+		"title": "Data Transformation from SQL to NoSQL MongoDB Based on R Programming Language",
+		"authors": [
+			"Hasan, Forat Falih",
+			"Bakar, Muhamad Shahbani Abu"
+		],
+		"doi": "10.1109/ISMSIT52890.2021.9604548",
+		"documentType": "conference",
+		"keywords": [
+			"Big Data",
+			"Data Transformation",
+			"SABR Algorithm",
+			"NoSQL",
+			"ETL"
+		],
+		"database": "IEEE Xplore Digital Library",
+		"year": 2021,
+		"wordCount": 3934,
+		"isAccessible": true,
+		"accessedAt": "2024-01-21 23:32:36"
+	},
+	{
+		"title": "Energy efficiency analysis of query optimizations on MongoDB and Cassandra",
+		"authors": [
+			"Mahajan, Divya",
+			"Zong, Ziliang"
+		],
+		"doi": "10.1109/IGCC.2017.8323581",
+		"documentType": "conference",
+		"keywords": [
+			"Energy-efficiency",
+			"NoSQL",
+			"MongoDB",
+			"Cassandra"
+		],
+		"database": "IEEE Xplore Digital Library",
+		"year": 2017,
+		"wordCount": 4552,
+		"isAccessible": false,
+		"accessedAt": "2024-03-01 14:41:36"
+	},
+	{
+		"title": "MongoDB performance analysis: A comparative study between stand-alone and sharded cluster deployments with open data from Brazilian Bolsa familia program",
+		"authors": [
+			"Neto, Aloisio Dourado",
+			"Fernandes, Eduardo Pires",
+			"Holanda, Maristela",
+			"Ribeiro, Edward",
+			"Carvalho, Rommel N."
+		],
+		"doi": "10.23919/CISTI.2017.7976005",
+		"documentType": "conference",
+		"keywords": [
+			"Massive Databases",
+			"NoSQL",
+			"MongoDB",
+			"Performance",
+			"Cluster",
+			"Big Data",
+			"Open Data",
+			"Bolsa Familia"
+		],
+		"database": "IEEE Xplore Digital Library",
+		"year": 2017,
+		"wordCount": 4983,
+		"isAccessible": true,
+		"accessedAt": "2024-01-24 19:47:04"
+	},
+	{
+		"title": "Mechanisms and techniques to enhance the security of big data analytic framework with MongoDB and Linux Containers",
+		"authors": [
+			"Mailewa, Akalanka",
+			"Mengel, Susan",
+			"Gittner, Lisa",
+			"Khan, Hafiz"
+		],
+		"doi": "10.1016/j.array.2022.100236",
+		"documentType": "article",
+		"keywords": [
+			"Vulnerabilities",
+			"Threats",
+			"Big-data",
+			"MongoDB",
+			"Data security",
+			"Docker & Singularity",
+			"Linux Containers",
+			"Sensitive data",
+			"HIPAA",
+			"Privacy"
+		],
+		"database": "ScienceDirect",
+		"year": 2022,
+		"wordCount": 8255,
+		"isAccessible": true,
+		"accessedAt": "2024-02-02 07:16:44"
+	},
+	{
+		"title": "Optimization of Transaction Database Design with MySQL and MongoDB",
+		"authors": [
+			"Hani Atun Mumtahana"
+		],
+		"doi": "10.33395/sinkron.v7i3.11528",
+		"documentType": "article",
+		"keywords": [
+			"database",
+			"mysql",
+			"mongodb",
+			"nosql",
+			"rdbms"
+		],
+		"database": "Directory of Open Access Journals",
+		"year": 2022,
+		"wordCount": null,
+		"isAccessible": false,
+		"accessedAt": "2024-01-06 10:53:18"
+	},
+	{
+		"title": "A fuzzy database engine for mongoDB",
+		"authors": [
+			"Medina, J.M.",
+			"Blanco, I.J.",
+			"Pons, O."
+		],
+		"doi": "10.1002/int.22807",
+		"documentType": "article",
+		"keywords": [
+			"fuzzy databases",
+			"fuzzy NoSQL databases",
+			"mongoDB"
+		],
+		"database": "Scopus",
+		"year": 2022,
+		"wordCount": 1889,
+		"isAccessible": true,
+		"accessedAt": "2024-02-03 13:17:55"
+	},
+	{
+		"title": "MongoDB Clustering using K-means for Real-Time Song Recognition",
+		"authors": [
+			"Sahbudin, Murtadha Arif Bin",
+			"Scarpa, Marco",
+			"Serrano, Salvatore"
+		],
+		"doi": "10.1109/ICCNC.2019.8685489",
+		"documentType": "conference",
+		"keywords": [
+			"Databases",
+			"Clustering algorithms",
+			"Microsoft Windows",
+			"Companies",
+			"Real-time systems",
+			"Fingerprint recognition",
+			"Information retrieval"
+		],
+		"database": "IEEE Xplore Digital Library",
+		"year": 2019,
+		"wordCount": 4284,
+		"isAccessible": false,
+		"accessedAt": "2024-01-04 20:13:31"
+	},
+	{
+		"title": "Performance Evaluation of NoSQL Document Databases: Couchbase, CouchDB, and MongoDB",
+		"authors": [
+			"Inês Carvalho",
+			"Filipe Sá",
+			"Jorge Bernardino"
+		],
+		"doi": "10.3390/a16020078",
+		"documentType": "article",
+		"keywords": [
+			"NoSQL document databases",
+			"Yahoo! Cloud Serving Benchmark",
+			"Couchbase",
+			"CouchDB",
+			"MongoDB"
+		],
+		"database": "Directory of Open Access Journals",
+		"year": 2023,
+		"wordCount": 6636,
+		"isAccessible": true,
+		"accessedAt": "2024-02-29 14:59:57"
+	},
+	{
+		"title": "MongoDB Vs PostgreSQL: A comparative study on performance aspects",
+		"authors": [
+			"Makris, Antonios",
+			"Tserpes, Konstantinos",
+			"Spiliopoulos, Giannis",
+			"Zissis, Dimitrios",
+			"Anagnostopoulos, Dimosthenis"
+		],
+		"doi": "10.1007/s10707-020-00407-w",
+		"documentType": "article",
+		"keywords": [
+			"Spatiotemporal analysis",
+			"Performance evaluation",
+			"Spatiotemporal data",
+			"AIS"
+		],
+		"database": "Springer Nature Journals",
+		"year": 2021,
+		"wordCount": 10274,
+		"isAccessible": true,
+		"accessedAt": "2024-01-07 20:36:03"
+	},
+	{
+		"title": "Accelerating Queries of MongoDB by an FPGA-based Storage Engine: Work-in-Progress",
+		"authors": [
+			"Zhan, Jinyu",
+			"Wu, Junting",
+			"Jiang, Wei",
+			"Li, Ying",
+			"Zhu, Jianping"
+		],
+		"doi": "10.1109/CODESISSS51650.2020.9244028",
+		"documentType": "conference",
+		"keywords": [
+			"Memory management",
+			"Benchmark testing",
+			"Acceleration",
+			"Task analysis",
+			"Engines",
+			"Field programmable gate arrays"
+		],
+		"database": "IEEE Xplore Digital Library",
+		"year": 2020,
+		"wordCount": 2201,
+		"isAccessible": true,
+		"accessedAt": "2024-02-15 03:24:31"
+	},
+	{
+		"title": "Data Synchronization Between MongoDB and Elasticsearch Using Monstache in Real-Time Data",
+		"authors": [
+			"Karunanithi, Anandhan",
+			"Sekar, Janarthanan",
+			"G, Jerald Prasath",
+			"N M, Sreenarayanan",
+			"S P, Pavan Kumar",
+			"K P, Arjun"
+		],
+		"doi": "10.1109/C2I659362.2023.10430502",
+		"documentType": "conference",
+		"keywords": [
+			"mongoDB",
+			"elasticsearch",
+			"monstache",
+			"kibana",
+			"synchronization"
+		],
+		"database": "IEEE Xplore Digital Library",
+		"year": 2023,
+		"wordCount": 4315,
+		"isAccessible": true,
+		"accessedAt": "2024-01-21 07:22:07"
+	},
+	{
+		"title": "STUDY AND IMPROVEMENT OF PERFORMANCE OF NoSQL DATABASES: MongoDB, HBase and OrientDB.",
+		"authors": [
+			"Noel Bila",
+			"Bopatriciat Boluma Mangata",
+			"Eugène MBUYI MUKENDI",
+			"Parfum BUKANGA CHRISTIAN"
+		],
+		"doi": "10.56327/ijiscs.v6i3.1262",
+		"documentType": "article",
+		"keywords": [
+			"nosql",
+			"mongodb",
+			"hbase",
+			"orientdb",
+			"ycsb"
+		],
+		"database": "Directory of Open Access Journals",
+		"year": 2022,
+		"wordCount": null,
+		"isAccessible": false,
+		"accessedAt": "2024-01-30 19:50:54"
+	},
+	{
+		"title": "Making Java EE Cool Again: Building MongoDB-Based Web Services Using JPA and EJB",
+		"authors": [
+			"Kaimer, Fabian",
+			"Brune, Philipp"
+		],
+		"doi": "10.1016/j.procs.2021.12.241",
+		"documentType": "article",
+		"keywords": [
+			"Web Services",
+			"Java EE",
+			"MongoDB",
+			"Java Persistence API",
+			"Enterprise Java Beans"
+		],
+		"database": "ScienceDirect",
+		"year": 2022,
+		"wordCount": 2994,
+		"isAccessible": true,
+		"accessedAt": "2024-02-14 00:10:52"
+	},
+	{
+		"title": "A Comparative Study of MongoDB and Document-Based MySQL for Big Data Application Data Management",
+		"authors": [
+			"Győrödi, C.A.",
+			"Dumşe-Burescu, D.V.",
+			"Zmaranda, D.R.",
+			"Győrödi, R.Ş."
+		],
+		"doi": "10.3390/bdcc6020049",
+		"documentType": "article",
+		"keywords": [
+			"Big Data applications",
+			"CRUD operations",
+			"document-based MySQL",
+			"MongoDB",
+			"NoSQL"
+		],
+		"database": "Scopus",
+		"year": 2022,
+		"wordCount": 11024,
+		"isAccessible": true,
+		"accessedAt": "2024-02-24 07:43:27"
+	},
+	{
+		"title": "One approach for full-text search of files in MongoDB based systems",
+		"authors": [
+			"Kelec, Aleksandar",
+			"Dujlovic, Igor",
+			"Obradovic, Nikola"
+		],
+		"doi": "10.1109/INFOTEH.2019.8717777",
+		"documentType": "conference",
+		"keywords": [
+			"Full-text search",
+			"MongoDB",
+			"GridFS",
+			"JavaScript",
+			"DMS"
+		],
+		"database": "IEEE Xplore Digital Library",
+		"year": 2019,
+		"wordCount": null,
+		"isAccessible": false,
+		"accessedAt": "2024-01-09 13:00:32"
+	},
+	{
+		"title": "How well a multi-model database performs against its single-model variants: Benchmarking OrientDB with Neo4j and MongoDB",
+		"authors": [
+			"Macak, Martin",
+			"Stovcik, Matus",
+			"Buhnova, Barbora",
+			"Merjavy, Michal"
+		],
+		"doi": "10.15439/2020F76",
+		"documentType": "conference",
+		"keywords": [
+			"NoSQL databases",
+			"Benchmark testing",
+			"Big Data",
+			"Information filters",
+			"Software"
+		],
+		"database": "IEEE Xplore Digital Library",
+		"year": 2020,
+		"wordCount": 5875,
+		"isAccessible": true,
+		"accessedAt": "2024-02-03 09:35:57"
+	},
+	{
+		"title": "An Archetype Query Language interpreter into MongoDB: Managing NoSQL standardized Electronic Health Record extracts systems",
+		"authors": [
+			"Ramos, Miguel",
+			"Sánchez-de-Madariaga, Ricardo",
+			"Barros, Jesús",
+			"Carrajo, Lino",
+			"Vázquez, Guillermo",
+			"Pérez, Santiago",
+			"Pascual, Mario",
+			"Martín-Sánchez, Fernando",
+			"Muñoz-Carrero, Adolfo"
+		],
+		"doi": "10.1016/j.jbi.2019.103339",
+		"documentType": "article",
+		"keywords": [
+			"Information storage and retrieval",
+			"Health information interoperability",
+			"Databases",
+			"Management information systems",
+			"Medical record systems",
+			"Electronic Health Records"
+		],
+		"database": "ScienceDirect",
+		"year": 2019,
+		"wordCount": 4737,
+		"isAccessible": true,
+		"accessedAt": "2024-02-15 02:10:55"
+	},
+	{
+		"title": "Security assurance of MongoDB in singularity LXCs: an elastic and convenient testbed using Linux containers to explore vulnerabilities",
+		"authors": [
+			"Dissanayaka, Akalanka Mailewa",
+			"Mengel, Susan",
+			"Gittner, Lisa",
+			"Khan, Hafiz"
+		],
+		"doi": "10.1007/s10586-020-03154-7",
+		"documentType": "original paper",
+		"keywords": [
+			"Security",
+			"Vulnerability",
+			"Attacks",
+			"LXCs",
+			"Virtualization",
+			"Testbeds"
+		],
+		"database": "Springer Nature Journals",
+		"year": 2020,
+		"wordCount": null,
+		"isAccessible": true,
+		"accessedAt": "2024-02-17 18:05:31"
+	},
+	{
+		"title": "Webapp Service for Booking Handyman Using Mongodb, Express JS, React JS, Node JS",
+		"authors": [
+			"Saundariya, K",
+			"Abirami, M",
+			"Senthil, Kumaran R",
+			"Prabakaran, D",
+			"Srimathi, B",
+			"Nagarajan, G"
+		],
+		"doi": "10.1109/ICSPC51351.2021.9451783",
+		"documentType": "conference",
+		"keywords": [
+			"Handyman services",
+			"MERN",
+			"Professional Handyman",
+			"Website"
+		],
+		"database": "IEEE Xplore Digital Library",
+		"year": 2021,
+		"wordCount": 2247,
+		"isAccessible": true,
+		"accessedAt": "2024-01-21 12:20:20"
+	},
+	{
+		"title": "Deciding When to Trade Data Freshness for Performance in MongoDB-as-a-Service",
+		"authors": [
+			"Huang, Chenhao",
+			"Cahill, Michael",
+			"Fekete, Alan",
+			"Rohm, Uwe"
+		],
+		"doi": "10.1109/ICDE48307.2020.00207",
+		"documentType": "conference",
+		"keywords": [
+			"Database-as-a-Service",
+			"performance",
+			"replication"
+		],
+		"database": "IEEE Xplore Digital Library",
+		"year": 2020,
+		"wordCount": 3238,
+		"isAccessible": true,
+		"accessedAt": "2024-02-229 13:50:31"
+	}
+]
