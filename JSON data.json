@@ -1,0 +1,163 @@
+[
+	{
+		"clientType": "B2C",
+		"isActive": true,
+		"contactDetails": {
+			"address": {
+				"city": "London",
+				"country": "UK"
+			},
+			"email":"anuraagmukherjee1@gmail.com"
+		},
+		"subscriptionDetails": {
+			"storage": 14,
+			"period": "CUSTOM",
+			"customPeriod": 11,
+			"periodicCost": 100
+		},
+		"personalDetails": {
+			"name": "Anuraag",
+			"age": 23
+		}
+
+	},
+	{
+		"clientType": "B2C",
+		"isActive": true,
+		"contactDetails": {
+			"address": {
+				"line1": "221B Baker Street",
+				"city": "London",
+				"country": "UK"
+			},
+			"email":"steve@gmail.com"
+		},
+		"followUps": [
+			{
+				"presenceType": "Online",
+				"dt": "2024-02-10",
+				"note": "Regular Check-in"
+			}
+		],
+		"subscriptionDetails": {
+			"storage": 20,
+			"period": "ANNUAL",
+			"periodicCost": 150,
+			"paymentReceipts": ["2021-01-10", "2022-01-10", "2023-01-10", "2024-01-10"]
+		},
+		"personalDetails": {
+			"name": "Steve",
+			"age": 27
+		}
+	},
+	{
+		"clientType": "B2C",
+		"isActive": true,
+		"contactDetails": {
+			"address": {
+				"line1": "12 Harrow Street",
+				"city": "London",
+				"country": "UK"
+			},
+			"phone":"+44 1233 132322"
+		},
+		"followUps": [
+			{
+				"presenceType": "Online",
+				"dt": "2023-04-23",
+				"note": "Client wants a discounted plan"
+			},
+			{
+				"presenceType": "Online",
+				"dt": "2024-01-17",
+				"note": "Regarding missed payment"
+			}
+		],
+		"subscriptionDetails": {
+			"storage": 15,
+			"period": "SEMI-ANNUAL",
+			"periodicCost": 90,
+			"paymentReceipts": [ "2023-01-15", "2023-07-15", "2024-01-18"]
+		},
+		"personalDetails": {
+			"name": "Mark",
+			"age": 28,
+			"gender": "Male"
+		}
+	},
+	{
+		"clientType": "B2C",
+		"isActive": true,
+		"contactDetails": {
+			"address": {
+              	"city": "Birmingham",
+				"country": "UK"
+			},
+			"phone":"+44 7724 132411"
+		},
+		"followUps": [
+			{
+				"presenceType": "In-Person",
+				"dt": "2023-04-23",
+				"note": "Initial Contact"
+			},
+			{
+				"presenceType": "Online",
+				"dt": "2024-01-17"
+			}
+		],
+		"subscriptionDetails": {
+			"storage": 30,
+			"period": "MONTHLY",
+			"periodicCost": 50,
+			"paymentReceipts": [ "2023-08-15", "2023-09-15", "2023-10-15", "2023-11-13", "2023-12-14", "2024-01-16", "2024-02-24"]
+		},
+		"personalDetails": {
+			"name": "Rueben",
+			"age": 19,
+			"gender": "Non-Binary"
+		}
+	},
+	{
+		"clientType": "B2B",
+		"isActive": true,
+		"contactDetails": {
+			"address": {
+				"line1": "14 IndiaBulls",
+				"line2": "Bandra Kurla Complex",
+				"city": "Mumbai",
+				"country": "India"
+			},
+			"phone":"+91 98101392324"
+		},
+		"followUps": [
+			{
+				"presenceType": "In-Person",
+				"dt": "2023-11-04",
+				"note": "Initial Contact"
+			},
+			{
+				"presenceType": "Online",
+				"dt": "2024-02-11"
+			},
+			{
+				"presenceType": "In-Person",
+				"dt": "2024-02-13",
+				"note": "Deal Finalized"
+
+			}
+		],
+		"subscriptionDetails": {
+			"storage": 90,
+			"period": "MONTHLY",
+			"periodicCost": 440,
+			"paymentReceipts": [ "2024-02-15", "2024-03-15"]
+		},
+		"companyDetails": {
+			"name": "Digi InfoTech",
+			"sector": "Informtation Technology"
+		}
+	}
+	
+	
+]

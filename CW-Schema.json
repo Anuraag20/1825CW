@@ -1,0 +1,316 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"$id": "https://example.com/clients.schema.json",
+	"title": "Clients",
+	"description": "Details of the company's clients",
+	"type": "array",
+	"items": {
+		"type": "object",
+		"properties": {
+			"clientType": {
+				"description": "Information about whether the client is a business or a single consumer.",
+				"type": "string",
+				"enum": [
+					"B2B",
+					"B2C"
+				]
+			},
+			"isActive": {
+				"description": "Denotes whether this customer is still an active subscriber or not.",
+				"type": "boolean",
+				"default": true
+			},
+			"contactDetails": {
+				"description": "All contact information of the client.",
+				"type": "object",
+				"properties": {
+					"address": {
+						"description": "Address related information.",
+						"type": "object",
+						"properties": {
+							"number": {
+								"description": "Number of their apartment/house/office.",
+								"type": "number"
+							},
+							"line1": {
+								"description": "First line of address.",
+								"type": "string",
+								"minLength": 10
+							},
+							"line2": {
+								"description": "Second line of address.",
+								"type": "string",
+								"minLength": 10
+							},
+							"city": {
+								"description": "The city in which the client is based in.",
+								"type": "string"
+							},
+							"country": {
+								"description": "The country the client resides in.",
+								"type": "string",
+								"enum": [
+									"India",
+									"UK"
+								]
+							}
+						},
+						"required": [
+							"city",
+							"country"
+						],
+						"dependentRequired": {
+							"number": [
+								"line1"
+							],
+							"line2": [
+								"line1"
+							]
+						}
+					},
+					"phone": {
+						"description": "Client's phone number.",
+						"type": "string"
+					},
+					"email": {
+						"description": "Client's email ID.",
+						"type": "string",
+						"format": "email"
+					}
+				},
+				"required": [
+					"address"
+				],
+				"anyOf": [
+					{
+						"required": [
+							"phone"
+						]
+					},
+					{
+						"required": [
+							"email"
+						]
+					}
+				],
+				"if": {
+					"properties": {
+						"address": {
+							"properties": {
+								"country": {
+									"const": "UK"
+								}
+							}
+						}
+					},
+					"required": [
+						"phone"
+					]
+				},
+				"then": {
+					"properties": {
+						"phone": {
+							"pattern": "^((\\+44)|(0)) ?[0-9]{4} ?[0-9]{6}$"
+						}
+					}
+				},
+				"else": {
+					"properties": {
+						"phone": {
+							"pattern": "^(\\+91[\\-\\s]?)?[0]?(91)?[789][0-9]{9}"
+						}
+					}
+				}
+			},
+			"followUps": {
+				"description": "A list of details of follow-ups with the client.",
+				"type": "array",
+				"items": {
+					"type": "object",
+					"properties": {
+						"presenceType": {
+							"description": "Whether the follow-up was done in person or online.",
+							"type": "string",
+							"enum": [
+								"In-Person",
+								"Online"
+							]
+						},
+						"dt": {
+							"description": "Date or Timestamp of the follow-up.",
+							"type": "string",
+							"anyOf": [
+								{
+									"format": "date-time"
+								},
+								{
+									"format": "date"
+								}
+							]
+						},
+						"notes": {
+							"description": "Notes related to the follow-up.",
+							"type": "string"
+						}
+					},
+					"required": [
+						"dt"
+					]
+				},
+				"minItems": 1
+			},
+			"subscriptionDetails": {
+				"description": "Details of the client's subscription.",
+				"type": "object",
+				"properties": {
+					"storage": {
+						"description": "Amount of storage space (in TBs) required for the customer.",
+						"type": "number",
+						"exclusiveMinimum": 10,
+						"maximum": 100
+					},
+					"period": {
+						"description": "The period of subscription.",
+						"type": "string",
+						"enum": [
+							"MONTHLY",
+							"QUATERLY",
+							"SEMI-ANNUAL",
+							"ANNUAL",
+							"CUSTOM"
+						]
+					},
+					"periodicCost": {
+						"description": "Amount (in GBP) needed to be paid per period of subscription.",
+						"type": "number",
+						"minimum": 20,
+						"multipleOf": 10
+					},
+					"paymentReceipts": {
+						"description": "Dates of when each payment has been received.",
+						"type": "array",
+						"items": {
+							"type": "string",
+							"format": "date"
+						}
+					}
+				},
+				"required": [
+					"storage",
+					"period",
+					"periodicCost"
+				],
+				"if": {
+					"properties": {
+						"period": {
+							"const": "CUSTOM"
+						}
+					}
+				},
+				"then": {
+					"properties": {
+						"customPeriod": {
+							"description": "The number of months denoting when the subscription needs to be renewed.",
+							"type": "integer",
+							"exclusiveMinimum": 1
+						}
+					},
+					"required": [
+						"customPeriod"
+					],
+					"not": {
+						"oneOf": [
+							{
+								"properties": {
+									"customPeriod": {"const": 3}
+								}
+							},
+							{
+								"properties": {
+									"customPeriod": {"const": 6}
+								}
+							},
+							{
+								"properties": {
+									"customPeriod": {"const": 12}
+								}
+							}
+						]
+					}
+				}
+			},
+			"notes": {
+				"description": "Notes related to the client.",
+				"type": "string"
+			}
+		},
+		"required": [
+			"clientType",
+			"contactDetails",
+			"subscriptionDetails"
+		],
+		"if": {
+			"properties": {
+				"clientType": {
+					"const": "B2B"
+				}
+			}
+		},
+		"then": {
+			"properties": {
+				"companyDetails": {
+					"description": "Details of the company.",
+					"type": "object",
+					"properties": {
+						"name": {
+							"description": "Name of the company.",
+							"type": "string",
+							"minLength": 3
+						},
+						"sector": {
+							"description": "Name of the sector the company is in.",
+							"type": "string",
+							"minLength": 3
+						}
+					},
+					"required": ["name"],
+					"additionalProperties": { 
+						"type": "string" 
+					}
+				}
+			},
+			"required": [
+				"companyDetails"
+			]
+		},
+		"else": {
+			"properties": {
+				"personalDetails": {
+					"description": "Details of the individual customer.",
+					"type": "object",
+					"properties": {
+						"name": {
+							"description": "Name of the customer.",
+							"type": "string",
+							"minLength": 3
+						},
+						"age": {
+							"description": "Age of the customer.",
+							"type": "integer",
+							"minimum": 18
+						}
+					},
+					"required": ["name"],
+					"additionalProperties": { 
+						"type": "string" 
+					}
+				}
+			},
+			"required": [
+				"personalDetails"
+			]
+		}
+	},
+	"minItems": 1,
+	"uniqueItems": true
+}
