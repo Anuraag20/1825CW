@@ -1,0 +1,21 @@
+SELECT 1
+MSET user:1:session gajbqfuw1821 user:2:session npfhapsj6493 user:3:session hgoaigps8305
+SADD user:1:subscriptions A12 B42 C53 D26
+SADD user:2:subscriptions A12 C53 E19
+HMSET user:1:preferences theme light auto_log_out 0
+HMSET user:2:preferences theme dark auto_log_out 1
+ 
+SELECT 2
+ZADD topics 18 A12 16 B42 19 C53 9 D26 21 E19
+HMSET topic:A12:info description "Most popular superhero movie." created_at "2024-01-05" 
+HMSET topic:B42:info description "Most popular fantasy novel." created_at "2024-01-12" 
+HMSET topic:C53:info description "Most ergonomic video game controller." created_at "2024-02-16" 
+HMSET topic:D26:info description "Favourite season of the year." created_at "2024-02-24" 
+HMSET topic:E19:info description "Who's that pokemon?" created_at "2024-03-01" 
+HMSET topic:A12:votes 1 Batman 2 Batman 3 Spiderman 5 Daredevil
+HMSET topic:E19:votes 2 Pikachu 3 Raychu
+MSET topic:A12:rating 4.5 topic:B42:rating 3.5 topic:C53:rating 4 topic:D26:rating 3 topic:E19:rating 4.2
+ 
+SELECT 3
+RPUSH user:1:notifications 'Someone voted on your topic' 'User 2 added created a new topic'
+RPUSH user:2:notifications 'Someone voted on your topic'
